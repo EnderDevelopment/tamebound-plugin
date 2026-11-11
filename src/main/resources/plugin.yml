@@ -1,0 +1,15 @@
+name: TameEveryMob
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+author: EnderDevelopment
+description: Makes mobs tameable after a player kills them and gives them wolf-like follow behavior.
+commands:
+  tameeverymob:
+    description: Shows the TameEveryMob plugin help.
+    usage: /tameeverymob
+    aliases: [tem]
+permissions:
+  tameeverymob.use:
+    description: Allows a player to claim mobs.
+    default: true
